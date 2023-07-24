@@ -60,73 +60,107 @@
 
 // №1
 
-let Celsius = 29;
+// let Celsius = 29;
 
-let Fahrenheit = (Celsius + 40) * 1.8 - 40;
+// let Fahrenheit = (Celsius + 40) * 1.8 - 40;
 
-console.log("Celsius - ", Celsius, "Fahrenheit -", Fahrenheit);
+// console.log("Celsius - ", Celsius, "Fahrenheit -", Fahrenheit);
 
-// №2
+// // №2
 
-let days = 31;
+// let days = 31;
 
-let hours = days * 24;
+// let hours = days * 24;
 
-let minuts = hours * 60;
+// let minuts = hours * 60;
 
-console.log("Hours - ", hours, "Minuts -", minuts);
+// console.log("Hours - ", hours, "Minuts -", minuts);
 
-// №3
+// // №3
 
-let helth = 100;
+// let helth = 100;
 
-let energy = 100;
+// let energy = 100;
 
-helth = helth - 20;
+// helth = helth - 20;
 
-energy = energy - 20;
+// energy = energy - 20;
 
-console.log("Helth - ", helth, "Energy -", energy);
+// console.log("Helth - ", helth, "Energy -", energy);
 
-// №4
+// // №4
 
-let sum = 100;
+// let sum = 100;
 
-let discount = 10;
+// let discount = 10;
 
-let total = sum - (sum * discount) / 100;
+// let total = sum - (sum * discount) / 100;
 
-console.log("Sum - ", sum, "Discount -", discount, "Total -", total);
+// console.log("Sum - ", sum, "Discount -", discount, "Total -", total);
 
-// №5
+// // №5
 
-let number = 15.65;
+// let number = 15.65;
 
-console.log(Math.floor(number));
+// console.log(Math.floor(number));
 
-// №6
+// // №6
 
-let number2 = 15.6;
+// let number2 = 15.6;
 
-console.log(parseFloat(number2));
+// console.log(parseFloat(number2));
 
-// №7
+// // №7
 
-let number3 = "15.667";
+// let number3 = "15.667";
 
-console.log(parseInt(number3));
+// console.log(parseInt(number3));
 
-// №8
+// // №8
 
-let number4 = "9";
+// let number4 = "9";
 
-console.log(Math.sqrt(number4));
+// console.log(Math.sqrt(number4));
 
-// №9
+// // №9
 
-let number5 = 56.789;
+// let number5 = 56.789;
 
-let string6 = "45.346";
+// let string6 = "45.346";
 
-console.log("number5 - ", number5.toString());
-console.log("string6 - ", parseInt(string6));
+// console.log("number5 - ", number5.toString());
+// console.log("string6 - ", parseInt(string6));
+
+// homework_3
+
+// // №1
+
+let result = 5 + 5 + "5";
+
+console.log(result);
+
+// // №2
+
+let email = "lytvynchuknik@gmail.com";
+
+console.log(email.includes("@"));
+
+// // №3
+
+let str1 = "My";
+
+let str2 = "name";
+
+let str3 = "is";
+
+let fullName = str1 + str2 + str3;
+
+console.log(fullName, "Viktor");
+
+// // №4
+
+let userName = "Олександро";
+
+let payment = "300";
+
+let total = alert(`Дякуємо, ${userName}! До сплати ${payment} гривень`);
